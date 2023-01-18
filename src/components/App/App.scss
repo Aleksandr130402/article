@@ -1,0 +1,17 @@
+.highlight {
+  background-color: yellow;
+}
+
+.container {
+  padding: 50px 30px 15px 30px;
+}
+
+.results {
+  margin-bottom: 50px;
+}
+
+.articles {
+  display: grid;
+  grid-gap: 45px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
